@@ -17,4 +17,4 @@ var Color;
     Color["Green"] = "green";
 })(Color || (Color = {}));
 var favcolor = Color.Green;
-alert(favcolor);
+console.log(favcolor);

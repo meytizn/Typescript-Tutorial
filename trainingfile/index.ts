@@ -24,7 +24,7 @@ enum Color{
 }
 
 let favcolor : Color = Color.Green
-alert(favcolor)
+console.log(favcolor)
 
 
 

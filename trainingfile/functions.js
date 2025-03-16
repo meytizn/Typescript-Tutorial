@@ -12,3 +12,13 @@ function third_greeting(name, age, status) {
         : "you faild ";
 }
 console.log(third_greeting("ali", 18));
+//never function has no return and used for errors and infint loop
+function first_never() {
+    throw new Error("error happend ");
+}
+function second_never(message) {
+    while (true) {
+        console.log(message);
+    }
+}
+second_never("errrorrr from never func");
